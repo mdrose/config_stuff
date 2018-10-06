@@ -1,0 +1,12 @@
+[user]
+    name = Michael Rose
+    email = mdrose@users.noreply.github.com
+
+[core]
+    editor = vi
+
+[color]
+    ui = auto
+
+[push]
+    default = simple
