@@ -20,7 +20,11 @@ set smartcase
 set incsearch
 
 "Indentation Options
-set autoindent
-set expandtab
-set tabstop=4
-set shiftwidth=4
+function s:TabSize(size)
+    set autoindent
+    set expandtab
+    let &tabstop = a:size
+    let &shiftwidth = a:size
+endfunction
+call s:TabSize(4)
+command! -nargs=1 TS call s:TabSize(<f-args>)
