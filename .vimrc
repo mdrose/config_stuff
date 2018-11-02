@@ -3,6 +3,7 @@ set background=dark
 set nowrap
 set encoding=utf-8
 set number
+set relativenumber
 set gdefault "/g flag on :s substitions
 set laststatus=2
 set scrolloff=2
